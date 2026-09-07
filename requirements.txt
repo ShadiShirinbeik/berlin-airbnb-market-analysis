@@ -1,0 +1,17 @@
+# Core
+pandas>=2.1
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+seaborn>=0.13
+
+# Modelling
+scikit-learn>=1.4
+statsmodels>=0.14
+
+# Notebook environment
+jupyterlab>=4.0
+ipykernel>=6.29
+
+# Testing
+pytest>=8.0

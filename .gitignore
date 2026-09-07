@@ -1,0 +1,19 @@
+# see data/README.md for the download link
+data/raw/*
+!data/raw/.gitkeep
+!data/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
