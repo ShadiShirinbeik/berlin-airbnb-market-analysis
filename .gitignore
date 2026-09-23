@@ -1,19 +1,12 @@
-# see data/README.md for the download link
-data/raw/*
-!data/raw/.gitkeep
-!data/README.md
+# data is downloaded by hand, never committed (see data/README.md)
+data/raw/*.csv
+data/*.csv
 
-# Python
+# python
 __pycache__/
-*.py[cod]
-.venv/
-venv/
+*.pyc
 .pytest_cache/
+.venv/
 
-# Jupyter
+# jupyter
 .ipynb_checkpoints/
-
-# OS / editors
-.DS_Store
-.idea/
-.vscode/
