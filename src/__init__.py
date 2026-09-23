@@ -1,9 +1,8 @@
-"""Reusable analysis code for the Berlin Airbnb project.
+"""Shared code for the Berlin Airbnb project.
 
-Notebooks import from here; nothing analytical lives in a notebook cell that
-could not be tested. Usage inside a notebook:
+Used inside a notebook like this:
 
     import sys; sys.path.append("..")
-    from src import config as cfg, cleaning, stats_utils as st, viz
+    from src import config as cfg
+    from src import cleaning
 """
-__version__ = "1.0.0"
